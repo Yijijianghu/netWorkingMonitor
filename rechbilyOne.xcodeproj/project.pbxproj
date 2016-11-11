@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F30B8F8F1DD3174E00E449FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F30B8F8E1DD3174E00E449FE /* main.m */; };
+		F30B8F921DD3174E00E449FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F30B8F911DD3174E00E449FE /* AppDelegate.m */; };
+		F30B8F951DD3174E00E449FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F30B8F941DD3174E00E449FE /* ViewController.m */; };
+		F30B8F981DD3174E00E449FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F30B8F961DD3174E00E449FE /* Main.storyboard */; };
+		F30B8F9A1DD3174E00E449FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F30B8F991DD3174E00E449FE /* Assets.xcassets */; };
+		F30B8F9D1DD3174E00E449FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F30B8F9B1DD3174E00E449FE /* LaunchScreen.storyboard */; };
+		F30B8FA81DD3174E00E449FE /* rechbilyOneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F30B8FA71DD3174E00E449FE /* rechbilyOneTests.m */; };
+		F30B8FB31DD3174E00E449FE /* rechbilyOneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F30B8FB21DD3174E00E449FE /* rechbilyOneUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F30B8FA41DD3174E00E449FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F30B8F821DD3174E00E449FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F30B8F891DD3174E00E449FE;
+			remoteInfo = rechbilyOne;
+		};
+		F30B8FAF1DD3174E00E449FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F30B8F821DD3174E00E449FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F30B8F891DD3174E00E449FE;
+			remoteInfo = rechbilyOne;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F30B8F8A1DD3174E00E449FE /* rechbilyOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rechbilyOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30B8F8E1DD3174E00E449FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F30B8F901DD3174E00E449FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F30B8F911DD3174E00E449FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F30B8F931DD3174E00E449FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F30B8F941DD3174E00E449FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F30B8F971DD3174E00E449FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F30B8F991DD3174E00E449FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F30B8F9C1DD3174E00E449FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F30B8F9E1DD3174E00E449FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F30B8FA31DD3174E00E449FE /* rechbilyOneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rechbilyOneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30B8FA71DD3174E00E449FE /* rechbilyOneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rechbilyOneTests.m; sourceTree = "<group>"; };
+		F30B8FA91DD3174E00E449FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F30B8FAE1DD3174E00E449FE /* rechbilyOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rechbilyOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30B8FB21DD3174E00E449FE /* rechbilyOneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rechbilyOneUITests.m; sourceTree = "<group>"; };
+		F30B8FB41DD3174E00E449FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F30B8F871DD3174E00E449FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30B8FA01DD3174E00E449FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30B8FAB1DD3174E00E449FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F30B8F811DD3174E00E449FE = {
+			isa = PBXGroup;
+			children = (
+				F30B8F8C1DD3174E00E449FE /* rechbilyOne */,
+				F30B8FA61DD3174E00E449FE /* rechbilyOneTests */,
+				F30B8FB11DD3174E00E449FE /* rechbilyOneUITests */,
+				F30B8F8B1DD3174E00E449FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F30B8F8B1DD3174E00E449FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F30B8F8A1DD3174E00E449FE /* rechbilyOne.app */,
+				F30B8FA31DD3174E00E449FE /* rechbilyOneTests.xctest */,
+				F30B8FAE1DD3174E00E449FE /* rechbilyOneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F30B8F8C1DD3174E00E449FE /* rechbilyOne */ = {
+			isa = PBXGroup;
+			children = (
+				F30B8F901DD3174E00E449FE /* AppDelegate.h */,
+				F30B8F911DD3174E00E449FE /* AppDelegate.m */,
+				F30B8F931DD3174E00E449FE /* ViewController.h */,
+				F30B8F941DD3174E00E449FE /* ViewController.m */,
+				F30B8F961DD3174E00E449FE /* Main.storyboard */,
+				F30B8F991DD3174E00E449FE /* Assets.xcassets */,
+				F30B8F9B1DD3174E00E449FE /* LaunchScreen.storyboard */,
+				F30B8F9E1DD3174E00E449FE /* Info.plist */,
+				F30B8F8D1DD3174E00E449FE /* Supporting Files */,
+			);
+			path = rechbilyOne;
+			sourceTree = "<group>";
+		};
+		F30B8F8D1DD3174E00E449FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F30B8F8E1DD3174E00E449FE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F30B8FA61DD3174E00E449FE /* rechbilyOneTests */ = {
+			isa = PBXGroup;
+			children = (
+				F30B8FA71DD3174E00E449FE /* rechbilyOneTests.m */,
+				F30B8FA91DD3174E00E449FE /* Info.plist */,
+			);
+			path = rechbilyOneTests;
+			sourceTree = "<group>";
+		};
+		F30B8FB11DD3174E00E449FE /* rechbilyOneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F30B8FB21DD3174E00E449FE /* rechbilyOneUITests.m */,
+				F30B8FB41DD3174E00E449FE /* Info.plist */,
+			);
+			path = rechbilyOneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F30B8F891DD3174E00E449FE /* rechbilyOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F30B8FB71DD3174E00E449FE /* Build configuration list for PBXNativeTarget "rechbilyOne" */;
+			buildPhases = (
+				F30B8F861DD3174E00E449FE /* Sources */,
+				F30B8F871DD3174E00E449FE /* Frameworks */,
+				F30B8F881DD3174E00E449FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rechbilyOne;
+			productName = rechbilyOne;
+			productReference = F30B8F8A1DD3174E00E449FE /* rechbilyOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F30B8FA21DD3174E00E449FE /* rechbilyOneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F30B8FBA1DD3174E00E449FE /* Build configuration list for PBXNativeTarget "rechbilyOneTests" */;
+			buildPhases = (
+				F30B8F9F1DD3174E00E449FE /* Sources */,
+				F30B8FA01DD3174E00E449FE /* Frameworks */,
+				F30B8FA11DD3174E00E449FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F30B8FA51DD3174E00E449FE /* PBXTargetDependency */,
+			);
+			name = rechbilyOneTests;
+			productName = rechbilyOneTests;
+			productReference = F30B8FA31DD3174E00E449FE /* rechbilyOneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F30B8FAD1DD3174E00E449FE /* rechbilyOneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F30B8FBD1DD3174E00E449FE /* Build configuration list for PBXNativeTarget "rechbilyOneUITests" */;
+			buildPhases = (
+				F30B8FAA1DD3174E00E449FE /* Sources */,
+				F30B8FAB1DD3174E00E449FE /* Frameworks */,
+				F30B8FAC1DD3174E00E449FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F30B8FB01DD3174E00E449FE /* PBXTargetDependency */,
+			);
+			name = rechbilyOneUITests;
+			productName = rechbilyOneUITests;
+			productReference = F30B8FAE1DD3174E00E449FE /* rechbilyOneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F30B8F821DD3174E00E449FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "密码123";
+				TargetAttributes = {
+					F30B8F891DD3174E00E449FE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Manual;
+					};
+					F30B8FA21DD3174E00E449FE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F30B8F891DD3174E00E449FE;
+					};
+					F30B8FAD1DD3174E00E449FE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F30B8F891DD3174E00E449FE;
+					};
+				};
+			};
+			buildConfigurationList = F30B8F851DD3174E00E449FE /* Build configuration list for PBXProject "rechbilyOne" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F30B8F811DD3174E00E449FE;
+			productRefGroup = F30B8F8B1DD3174E00E449FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F30B8F891DD3174E00E449FE /* rechbilyOne */,
+				F30B8FA21DD3174E00E449FE /* rechbilyOneTests */,
+				F30B8FAD1DD3174E00E449FE /* rechbilyOneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F30B8F881DD3174E00E449FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30B8F9D1DD3174E00E449FE /* LaunchScreen.storyboard in Resources */,
+				F30B8F9A1DD3174E00E449FE /* Assets.xcassets in Resources */,
+				F30B8F981DD3174E00E449FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30B8FA11DD3174E00E449FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30B8FAC1DD3174E00E449FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F30B8F861DD3174E00E449FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30B8F951DD3174E00E449FE /* ViewController.m in Sources */,
+				F30B8F921DD3174E00E449FE /* AppDelegate.m in Sources */,
+				F30B8F8F1DD3174E00E449FE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30B8F9F1DD3174E00E449FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30B8FA81DD3174E00E449FE /* rechbilyOneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30B8FAA1DD3174E00E449FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30B8FB31DD3174E00E449FE /* rechbilyOneUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F30B8FA51DD3174E00E449FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F30B8F891DD3174E00E449FE /* rechbilyOne */;
+			targetProxy = F30B8FA41DD3174E00E449FE /* PBXContainerItemProxy */;
+		};
+		F30B8FB01DD3174E00E449FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F30B8F891DD3174E00E449FE /* rechbilyOne */;
+			targetProxy = F30B8FAF1DD3174E00E449FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F30B8F961DD3174E00E449FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F30B8F971DD3174E00E449FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F30B8F9B1DD3174E00E449FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F30B8F9C1DD3174E00E449FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F30B8FB51DD3174E00E449FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Danpeng Xu (AC5T4P2N24)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Danpeng Xu (AC5T4P2N24)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "ec516901-708d-403e-a258-cd201a73ca57";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F30B8FB61DD3174E00E449FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Danpeng Xu (AC5T4P2N24)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Danpeng Xu (AC5T4P2N24)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "ec516901-708d-403e-a258-cd201a73ca57";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F30B8FB81DD3174E00E449FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Danpeng Xu (AC5T4P2N24)";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = rechbilyOne/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danpeng.qinghua;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ec516901-708d-403e-a258-cd201a73ca57";
+			};
+			name = Debug;
+		};
+		F30B8FB91DD3174E00E449FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Danpeng Xu (AC5T4P2N24)";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = rechbilyOne/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danpeng.qinghua;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ec516901-708d-403e-a258-cd201a73ca57";
+			};
+			name = Release;
+		};
+		F30B8FBB1DD3174E00E449FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = rechbilyOneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyhz.bplus.rechbilyOneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rechbilyOne.app/rechbilyOne";
+			};
+			name = Debug;
+		};
+		F30B8FBC1DD3174E00E449FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = rechbilyOneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyhz.bplus.rechbilyOneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rechbilyOne.app/rechbilyOne";
+			};
+			name = Release;
+		};
+		F30B8FBE1DD3174E00E449FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = rechbilyOneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyhz.bplus.rechbilyOneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = rechbilyOne;
+			};
+			name = Debug;
+		};
+		F30B8FBF1DD3174E00E449FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = rechbilyOneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyhz.bplus.rechbilyOneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = rechbilyOne;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F30B8F851DD3174E00E449FE /* Build configuration list for PBXProject "rechbilyOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F30B8FB51DD3174E00E449FE /* Debug */,
+				F30B8FB61DD3174E00E449FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F30B8FB71DD3174E00E449FE /* Build configuration list for PBXNativeTarget "rechbilyOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F30B8FB81DD3174E00E449FE /* Debug */,
+				F30B8FB91DD3174E00E449FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F30B8FBA1DD3174E00E449FE /* Build configuration list for PBXNativeTarget "rechbilyOneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F30B8FBB1DD3174E00E449FE /* Debug */,
+				F30B8FBC1DD3174E00E449FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F30B8FBD1DD3174E00E449FE /* Build configuration list for PBXNativeTarget "rechbilyOneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F30B8FBE1DD3174E00E449FE /* Debug */,
+				F30B8FBF1DD3174E00E449FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F30B8F821DD3174E00E449FE /* Project object */;
+}
